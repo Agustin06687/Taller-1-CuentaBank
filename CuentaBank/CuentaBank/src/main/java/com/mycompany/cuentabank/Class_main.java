@@ -47,7 +47,7 @@ public class Class_main {
                         System.out.print("Saldo: ");
                         double saldoA = sc.nextDouble();
                         sc.nextLine();
-                        System.out.print("Fecha creación: ");
+                        System.out.print("Fecha creacion: ");
                         String fecha = sc.nextLine();
                         
                         service.crearCuenta(new Cuenta_Ahorro(numA, dniA, saldoA, fecha));
@@ -55,7 +55,7 @@ public class Class_main {
                     }
                     
                     case 4 -> {
-                        System.out.print("Número cuenta: ");
+                        System.out.print("Numero cuenta: ");
                         String numC = sc.nextLine();
                         System.out.print("Cedula: ");
                         long dniC = sc.nextLong();
